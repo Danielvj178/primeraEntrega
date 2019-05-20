@@ -20,6 +20,7 @@ const cursos = [
 ];
 
 let listadoCursos1 = (curso) => {
+	console.log('--- Curso 1 ---');
 	console.log('El id del curso es: '+curso.id);
 	console.log('El nombre del curso es: '+curso.nombre);
 	console.log('La duración del curso es: '+curso.duracion);
@@ -28,6 +29,7 @@ let listadoCursos1 = (curso) => {
 
 let listadoCursos2 = (curso, callback) => {
 	setTimeout(function (){
+		console.log('--- Curso 2 ---');
 		console.log('El id del curso es: '+curso.id);
 		console.log('El nombre del curso es: '+curso.nombre);
 		console.log('La duración del curso es: '+curso.duracion);
@@ -37,6 +39,7 @@ let listadoCursos2 = (curso, callback) => {
 
 let listadoCursos3 = (curso) => {
 	setTimeout(function (){
+		console.log('--- Curso 3 ---');
 		console.log('El id del curso es: '+curso.id);
 		console.log('El nombre del curso es: '+curso.nombre);
 		console.log('La duración del curso es: '+curso.duracion);
